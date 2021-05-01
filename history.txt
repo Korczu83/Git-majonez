@@ -1,3 +1,4 @@
+  347  mkdir git-majonez
   348  cd git-majonez/
   349  git init
   350  ls
