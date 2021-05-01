@@ -1,0 +1,62 @@
+  348  cd git-majonez/
+  349  git init
+  350  ls
+  351  ls -a
+  352  touch main.cpp
+  353  ls
+  354  gedit main.cpp 
+  355  git status
+  356  git add main.cpp 
+  357  git status
+  358  git commit -m"Initial commit"
+  359  ls
+  360  gedit main.cpp 
+  361  git status
+  362  git add main.cpp 
+  363  git commit -m"Farewell changed"
+  364  git status
+  365  git branch
+  366  gitk &
+  367  ./a.out
+  368  cd git-majonez/
+  369  ls
+  370  git remote add origin https://github.com/Korczu83/Git-majonez.git
+  371  git status
+  372  git push -u origin main
+  373  git status
+  374  rm a.out 
+  375  \git status
+  376  git push -u origin main
+  377  git push -u origin master
+  378  git branch cs
+  379  git status
+  380  git checkout cs
+  381  git log
+  382  git reset 14ce0afd8c3eafdad91b83f00a874a1c45b25b60
+  383  git log
+  384  git status
+  385  gedit main.cpp 
+  386  git status
+  387  git add .
+  388  git commit -m"Greetings"
+  389  git status
+  390  git log
+  391  git push origin cs
+  392  git checkout master
+  393  git merge cs
+  394  git status
+  395  git cat main.cpp
+  396  cat main.cpp 
+  397  gedit main.cpp 
+  398  git mergetool
+  399  gedit main
+  400  gedit main.cpp
+  401  git status
+  402  git add main.cpp
+  403  git status
+  404  git commit
+  405  git status
+  406  history
+  407  cat history.txt 
+  408  history | tail -n61
+  409  history | tail -n62 > history.txt 
